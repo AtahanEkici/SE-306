@@ -33,7 +33,6 @@ public class Main
         jfc.setFileFilter(new FileNameExtensionFilter("Text","txt"));
         int result = jfc.showSaveDialog(null);
        
-        
          if(result == JFileChooser.APPROVE_OPTION)
         {
             file = jfc.getSelectedFile();
